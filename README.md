@@ -16,7 +16,7 @@ It’s open source language, related to other languages making it cross platform
 Download R(*https://cran.r-project.org/bin/*) & RStudio (*https://www.rstudio.com/products/rstudio/download/*)
 
 ## Packages 
-shiny - install.packages("shiny")
-nnet - install.packages("nnet")
-EBImage - install.packages("BiocManager")
-          BiocManager::install("EBImage")
+shiny - install.packages("shiny") <br/>
+nnet - install.packages("nnet") <br/>
+EBImage - install.packages("BiocManager") <br/>
+          BiocManager::install("EBImage") <br/>
