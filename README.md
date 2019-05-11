@@ -69,3 +69,4 @@ new.function <- function(a) {
 new.function(6)
 
 **Linear Regression and Curve Fitting**
+Run the code from curvefit.R
