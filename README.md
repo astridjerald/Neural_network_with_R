@@ -14,6 +14,11 @@ It’s open source language, related to other languages making it cross platform
 Download R(*https://cran.r-project.org/bin/*) & RStudio (*https://www.rstudio.com/products/rstudio/download/*)
 
 ## Packages 
+**CRAN - Comprehensive R Archive Network**
+CRAN is a network of ftp and web servers around the world that store identical, up-to-date, versions of code and documentation for R. 
+
+To install packages in R, type the below mentioned commands in R Console or Go To *Tools* and Click on *Install Packages* and install the below mentioned packages. 
+
 <pre>
 shiny - install.packages("shiny") <br/>
 nnet - install.packages("nnet") <br/>
@@ -29,7 +34,7 @@ Linear regression is a linear approach to modelling the relationship between 
 
 Curve fitting is the process of constructing a curve, or mathematical function, that has the best fit to a series of data points, possibly subject to constraints.
 
-Run the code from *Regression&Curvefit.R* ro understand how Linear Regression and Curve Fitting works in R.<br/>
+Run the code from *Regression&Curvefit.R* to understand how Linear Regression and Curve Fitting works in R.<br/>
 
 # Neural Network
 ## A primer in neural networks
