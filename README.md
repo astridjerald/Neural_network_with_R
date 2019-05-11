@@ -22,14 +22,14 @@ EBImage - install.packages("BiocManager") <br/>
 </pre>
 
 ## Syntax in R <br/>
-Run the code from *Syntax.R* which contains an example of ifelse statement, for loop, while loop, break & next statement and a function. <br/>
+To get familiear with R. Run the code from *Syntax.R* which contains an example of ifelse statement, for loop, while loop, break & next statement and a function. <br/>
 
 ## Linear Regression and Curve Fitting <br/>
 Linear regression is a linear approach to modelling the relationship between a scalar response dependent variable and independent variables. 
 
 Curve fitting is the process of constructing a curve, or mathematical function, that has the best fit to a series of data points, possibly subject to constraints.
 
-Run the code from *Regression&Curvefit.R* <br/>
+Run the code from *Regression&Curvefit.R* ro understand how Linear Regression and Curve Fitting works in R.<br/>
 
 # Neural Network
 ## A primer in neural networks
@@ -50,7 +50,8 @@ The hidden layer is the collection of neurons which has activation function appl
 ## Output Layer
 The output layer of the neural network collects and transmits the information accordingly in way it has been designed to give. The pattern presented by the output layer can be directly traced back to the input layer. The number of neurons in output layer should be directly related to the type of work that the neural network was performing. To determine the number of neurons in the output layer, first consider the intended use of the neural network.
 
-Run the code from *NeuralNet_Visualization.R*
+To understand a Neural Network we need to visualize a Neural Network.
+Run the code from *NeuralNet_Visualization.R* which will plot a small Neural Network. 
 
 ![Neural Network Plot](https://github.com/The-Assembly/Neural_network_with_R/blob/master/NeuralNet_Plot.png)
 
