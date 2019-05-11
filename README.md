@@ -21,52 +21,52 @@ nnet - install.packages("nnet") <br/>
 EBImage - install.packages("BiocManager") <br/>
           BiocManager::install("EBImage") <br/>
 
-# Syntax in R
-**ifelse()** function
-x <- 5
-if(x > 0){
-  print("Non-negative number")
-  } else {
-       print("Negative number")
-  }
-**for** loop
-for (year in 2010:2015){
-  print(paste("The year is", year))
+# Syntax in R <br/>
+**ifelse()** function <br/>
+x <- 5 <br/>
+if(x > 0){ <br/>
+  print("Non-negative number") <br/>
+  } else { <br/>
+       print("Negative number") <br/>
+  } <br/>
+**for** loop <br/>
+for (year in 2010:2015){ <br/>
+  print(paste("The year is", year)) <br/>
+} <br/>
+
+**while** loop <br/>
+i <- 1 <br/>
+while (i < 6) { <br/>
+  print(i) <br/>
+  i = i+1 <br/>
+} <br/>
+
+**break next** statement <br/>
+x <- 1:5 <br/>
+for (val in x) { <br/>
+  if (val == 3){ <br/>
+    break <br/>
+  } <br/>
+  print(val) <br/>
 }
 
-**while** loop
-i <- 1
-while (i < 6) {
-  print(i)
-  i = i+1
-}
+x <- 1:5 <br/>
+for (val in x) { <br/>
+  if (val == 3){ <br/>
+    next <br/>
+  } <br/>
+  print(val) <br/>
+} <br/>
 
-**break next** statement
-x <- 1:5
-for (val in x) {
-  if (val == 3){
-    break
-  }
-  print(val)
-}
+**function** <br/>
+new.function <- function(a) { <br/>
+  for(i in 1:a) { <br/>
+    b <- i^2 <br/>
+    print(b) <br/>
+  } <br/>
+} <br/>
 
-x <- 1:5
-for (val in x) {
-  if (val == 3){
-    next
-  }
-  print(val)
-}
+new.function(6) <br/>
 
-**function**
-new.function <- function(a) {
-  for(i in 1:a) {
-    b <- i^2
-    print(b)
-  }
-}
-
-new.function(6)
-
-**Linear Regression and Curve Fitting**
-Run the code from curvefit.R
+**Linear Regression and Curve Fitting** <br/>
+Run the code from curvefit.R <br/>
