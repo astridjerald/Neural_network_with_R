@@ -4,12 +4,10 @@
 
 In this workshop, we’ll apply this to the field of machine learning and show you how you can use R to create and visualize a neural network that takes in a dataset and trains a model to predict outcomes.
 
-![Digit Recognizer](https://github.com/The-Assembly/Neural_network_with_R/blob/master/DigitRecognizer.gif)
-
 # What is R?
 R is a programming language and free software environment for statistical computing and graphics.  The R language is widely used among statisticians and data miners for developing statistical software and data analysis.
 
-# Advantages of using R
+## Advantages of using R
 It’s open source language, related to other languages making it cross platform compatible.
 
 # Installation Guide
@@ -27,7 +25,11 @@ EBImage - install.packages("BiocManager") <br/>
 Run the code from *Syntax.R* which contains an example of ifelse statement, for loop, while loop, break & next statement and a function. <br/>
 
 ## Linear Regression and Curve Fitting** <br/>
-Run the code from curvefit.R <br/>
+Linear regression is a linear approach to modelling the relationship between a scalar response dependent variable and independent variables. 
+
+Curve fitting is the process of constructing a curve, or mathematical function, that has the best fit to a series of data points, possibly subject to constraints.
+
+Run the code from *Regression&Curvefit.R* <br/>
 
 
 # A primer in neural networks
@@ -52,6 +54,8 @@ The output layer of the neural network collects and transmits the information ac
 
 # Running your first neural network!
 It's as simple as it can get. Clone this repository, open up the neuralNetwork.R file and run it. In this file, the neural network is primed to recognize digits from a handwritten dataset called MNIST. Finally, after you've successfully trained the neural network, Open up Project_101411025, which is the R file where the GUI interface using Shiny, an R package has been used. Run it and use the interface to upload test images present in this repository. Then watch your neural network as it successfully recognizes the digits.
+
+![Digit Recognizer](https://github.com/The-Assembly/Neural_network_with_R/blob/master/DigitRecognizer.gif)
 
 # Help
 You might encounter some hiccups while trying to get the code to work or while trying to learn about neural networks. If you do feel lost, don't hesitate to contact us at the Assembly. We are available at most social media handles under the alias @MakeSmartThings and would be more than happy to help.
