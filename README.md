@@ -16,59 +16,17 @@ It’s open source language, related to other languages making it cross platform
 Download R(*https://cran.r-project.org/bin/*) & RStudio (*https://www.rstudio.com/products/rstudio/download/*)
 
 ## Packages 
+<pre>
 shiny - install.packages("shiny") <br/>
 nnet - install.packages("nnet") <br/>
 EBImage - install.packages("BiocManager") <br/>
           BiocManager::install("EBImage") <br/>
+</pre>
 
-# Syntax in R <br/>
-**ifelse()** function <br/>
-x <- 5 <br/>
-if(x > 0){ <br/>
-  print("Non-negative number") <br/>
-  } else { <br/>
-       print("Negative number") <br/>
-  } <br/>
-**for** loop <br/>
-for (year in 2010:2015){ <br/>
-  print(paste("The year is", year)) <br/>
-} <br/>
+## Syntax in R <br/>
+Run the code from *Syntax.R* which contains an example of ifelse statement, for loop, while loop, break & next statement and a function. <br/>
 
-**while** loop <br/>
-i <- 1 <br/>
-while (i < 6) { <br/>
-  print(i) <br/>
-  i = i+1 <br/>
-} <br/>
-
-**break next** statement <br/>
-x <- 1:5 <br/>
-for (val in x) { <br/>
-  if (val == 3){ <br/>
-    break <br/>
-  } <br/>
-  print(val) <br/>
-}
-
-x <- 1:5 <br/>
-for (val in x) { <br/>
-  if (val == 3){ <br/>
-    next <br/>
-  } <br/>
-  print(val) <br/>
-} <br/>
-
-**function** <br/>
-new.function <- function(a) { <br/>
-  for(i in 1:a) { <br/>
-    b <- i^2 <br/>
-    print(b) <br/>
-  } <br/>
-} <br/>
-
-new.function(6) <br/>
-
-**Linear Regression and Curve Fitting** <br/>
+## Linear Regression and Curve Fitting** <br/>
 Run the code from curvefit.R <br/>
 
 
