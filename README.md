@@ -70,4 +70,28 @@ new.function(6) <br/>
 
 **Linear Regression and Curve Fitting** <br/>
 Run the code from curvefit.R <br/>
-![alt-text](https://github.com/The-Assembly/Neural_network_with_R/blob/master/curvefit.R)
+
+
+# A primer in neural networks
+An Artificial Neuron Network (ANN), popularly known as Neural Network is a computational model based on the structure and functions of biological neural networks. It is like an artificial human nervous system for receiving, processing, and transmitting information in terms of Computer Science.
+Basically, there are 3 different layers in a neural network :-
+Input Layer (All the inputs are fed in the model through this layer)
+Hidden Layers (There can be more than one hidden layers which are used for processing the inputs received from the input layers)
+Output Layer (The data after processing is made available at the output layer)
+
+![Image of an Artificial Neural Network](https://github.com/The-Assembly/Neural_network_with_R/blob/master/ANNImage.jpeg)
+
+# Input Layer
+The Input layer communicates with the external environment that presents a pattern to the neural network. Its job is to deal with all the inputs only. This input gets transferred to the hidden layers which are explained below. The input layer should represent the condition for which we are training the neural network. Every input neuron should represent some independent variable that has an influence over the output of the neural network.
+
+# Hidden Layer
+The hidden layer is the collection of neurons which has activation function applied on it and it is an intermediate layer found between the input layer and the output layer. Its job is to process the inputs obtained by its previous layer. So it is the layer which is responsible extracting the required features from the input data. Many researches has been made in evaluating the number of neurons in the hidden layer but still none of them was successful in finding the accurate result. Also there can be multiple hidden layers in a Neural Network. So you must be thinking that how many hidden layers have to be used for which kind of problem. Suppose that if we have a data which can be separated linearly, then there is no need to use hidden layer as the activation function can be implemented to input layer which can solve the problem. But in case of problems which deals with complex decisions, we can use 3 to 5 hidden layers based on the degree of complexity of the problem or the degree of accuracy required. That certainly not means that if we keep on increasing the number of layers, the neural network will give high accuracy! A stage comes when the accuracy becomes constant or falls if we add an extra layer! Also, we should also calculate the number of nuerons in each network. If the number of neurons are less as compared to the complexity of the problem data then there will be very few neurons in the hidden layers to adequately detect the signals in a complicated data set. If unnecessary more neurons are present in the network then Overfitting may occur. Several methods are used till now which do not provide the exact formula for calculating the number of hidden layer as well as number of neurons in each hidden layer.
+
+# Output Layer
+The output layer of the neural network collects and transmits the information accordingly in way it has been designed to give. The pattern presented by the output layer can be directly traced back to the input layer. The number of neurons in output layer should be directly related to the type of work that the neural network was performing. To determine the number of neurons in the output layer, first consider the intended use of the neural network.
+
+# Running your first neural network!
+It's as simple as it can get. Clone this repository, open up the neuralNetwork.R file and run it. In this file, the neural network is primed to recognize digits from a handwritten dataset called MNIST. Finally, after you've successfully trained the neural network, Open up Project_101411025, which is the R file where the GUI interface using Shiny, an R package has been used. Run it and use the interface to upload test images present in this repository. Then watch your neural network as it successfully recognizes the digits.
+
+# Help
+You might encounter some hiccups while trying to get the code to work or while trying to learn about neural networks. If you do feel lost, don't hesitate to contact us at the Assembly. We are available at most social media handles under the alias @MakeSmartThings and would be more than happy to help.
