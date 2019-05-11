@@ -56,7 +56,7 @@ server <- function(input, output) {
     testFileName  <-'threepx.csv'
     newTestDataset <- read.csv(testFileName)    # Read the datafile
     testreduced <- newTestDataset/255 
-    Xcov <- cov(testreduced)
+    #Xcov <- cov(testreduced)
     pcaX <- prcomp(Xcov)
     testreduced <- as.matrix(testreduced) %*% pcaX$rotation[,1:45]
     NewPredicted <- predict(model,testreduced,type="class")
