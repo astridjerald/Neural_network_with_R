@@ -70,3 +70,4 @@ new.function(6) <br/>
 
 **Linear Regression and Curve Fitting** <br/>
 Run the code from curvefit.R <br/>
+![](https://github.com/The-Assembly/Neural_network_with_R/blob/master/curvefit.R)
