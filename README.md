@@ -48,6 +48,8 @@ The hidden layer is the collection of neurons which has activation function appl
 # Output Layer
 The output layer of the neural network collects and transmits the information accordingly in way it has been designed to give. The pattern presented by the output layer can be directly traced back to the input layer. The number of neurons in output layer should be directly related to the type of work that the neural network was performing. To determine the number of neurons in the output layer, first consider the intended use of the neural network.
 
+![Neural Network Plot](https://github.com/The-Assembly/Neural_network_with_R/blob/master/NeuralNet_Plot.png)
+
 # Running your first neural network!
 It's as simple as it can get. Clone this repository, open up the neuralNetwork.R file and run it. In this file, the neural network is primed to recognize digits from a handwritten dataset called MNIST. Finally, after you've successfully trained the neural network, Open up Project_101411025, which is the R file where the GUI interface using Shiny, an R package has been used. Run it and use the interface to upload test images present in this repository. Then watch your neural network as it successfully recognizes the digits.
 
