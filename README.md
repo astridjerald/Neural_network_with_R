@@ -14,7 +14,7 @@ It’s open source language, related to other languages making it cross platform
 Download R(*https://cran.r-project.org/bin/*) & RStudio (*https://www.rstudio.com/products/rstudio/download/*)
 
 ## Packages 
-**CRAN - Comprehensive R Archive Network**
+**CRAN - Comprehensive R Archive Network** <br/>
 CRAN is a network of ftp and web servers around the world that store identical, up-to-date, versions of code and documentation for R. 
 
 To install packages in R, type the below mentioned commands in R Console or Go To *Tools* and Click on *Install Packages* and install the below mentioned packages. 
