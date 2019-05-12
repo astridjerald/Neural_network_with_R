@@ -66,4 +66,4 @@ It's as simple as it can get. Clone this repository, open up the neuralNetwork.R
 ![Digit Recognizer](https://github.com/The-Assembly/Neural_network_with_R/blob/master/DigitRecognizer.gif)
 
 # Help
-You might encounter some hiccups while trying to get the code to work or while trying to learn about neural networks. If you do feel lost, don't hesitate to contact us at the Assembly. We are available at most social media handles under the alias @MakeSmartThings and would be more than happy to help.
+If you encounter any issues while trying to get the code to work or while trying to learn about neural networks, don't hesitate to contact us at the Assembly. We are available at most social media handles under the alias @MakeSmartThings and would be more than happy to help.
