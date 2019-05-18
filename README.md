@@ -4,6 +4,8 @@
 
 In this workshop, we’ll apply this to the field of machine learning and show you how you can use R to create and visualize a neural network that takes in a dataset and trains a model to predict outcomes.
 
+Note: I was one of the individuals involved with curating the content for the workshop, presenting the workshop and updating the repository.
+
 # What is R?
 R is a programming language and free software environment for statistical computing and graphics.  The R language is widely used among statisticians and data miners for developing statistical software and data analysis.
 
